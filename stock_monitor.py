@@ -15,7 +15,7 @@ from sector_stocks import sectors
 from stock_names import stock_names
 
 # Initialize the NewsAPI client
-newsapi = NewsApiClient(api_key='be87301db8f4449c8022e18aefb6caf2')
+newsapi = NewsApiClient(api_key='abc')
 
 # Set up logging to file
 logging.basicConfig(filename='stock_alerts.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
